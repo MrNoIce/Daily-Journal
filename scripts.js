@@ -9,32 +9,16 @@
 //     feels: ""
 // }
 
-let jour = [];
 
-const journalEntryOne = {
-  date: "06/01/2019",
-  concepts: "Functions and Array methods",
-  content: "We learned about how to acurately confuse me in an exciting way!!",
-  feels: "Alright"
-};
 
-const journalEntryTwo = {
-  date: "06/03/2019",
-  concepts: "More functions and concepts",
-  content: "We learned how to lots of different things",
-  feels: "good"
-};
+fetch("http://localhost:8088/journalEntries") // Fetch from the API
+    .then(journalEntries => journalEntries.json())  // Parse as JSON
+    .then(entries => {
+        console.log(entries)
+        renderJournalEntries(entries)// What should happen when we finally have the array?
+    })
 
-const journalEntryThree = {
-  date: "06/05/2019",
-  concepts: "the dom",
-  content:
-    "learned how to impliment document.querySelector to inject html into the dom",
-  feels: "stressed"
-};
-jour.push(journalEntryOne, journalEntryTwo, journalEntryThree);
 
-console.log(jour);
 
 const makeJournalEntryComponent = function (journalEntry) {
   
@@ -59,4 +43,3 @@ const renderJournalEntries = (taco) => {
 }
 
 // Invoke the render function
-renderJournalEntries(jour)
