@@ -1,24 +1,39 @@
 {
-    "journalEntries": [
+  "journalEntries": [
     {
-    "date": "06/01/2019",
-    "concepts": "Functions and Array methods",
-    "content": "We learned about how to acurately confuse me in an exciting way!!",
-    "feels": "Alright"
-  },
-  
-   {
-    "date": "06/03/2019",
-    "concepts": "More functions and concepts",
-    "content": "We learned how to lots of different things",
-    "feels": "good"
-  },
-  {
-    "date": "06/05/2019",
-    "concepts": "the dom",
-    "content":
-    "learned how to impliment document.querySelector to inject html into the dom",
-    "feels": "stressed"
-  }
-]
+      "id": 1,
+      "date": "06/01/2019",
+      "concepts": "Functions and Array methods",
+      "content": "We learned about how to acurately confuse me in an exciting way!!",
+      "feels": "Alright"
+    },
+    {
+      "id": 2,
+      "date": "06/03/2019",
+      "concepts": "More functions and concepts",
+      "content": "We learned how to lots of different things",
+      "feels": "good"
+    },
+    {
+      "id": 3,
+      "date": "06/05/2019",
+      "concepts": "the dom",
+      "content": "learned how to impliment document.querySelector to inject html into the dom",
+      "feels": "stressed"
+    },
+    {
+      "date": "",
+      "concepts": "",
+      "entry": "",
+      "feels": "Excited",
+      "id": 4
+    },
+    {
+      "date": "2019-06-19",
+      "concepts": "Yet to be discovered",
+      "entry": "We have just started in the morning. I have just figured out that i have to add \"id\"s to the json file before it knows what to do with the information.. ",
+      "feels": "Excited",
+      "id": 5
+    }
+  ]
 }
