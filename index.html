@@ -21,20 +21,20 @@
    <form action="">
     <fieldset>
         Concepts Covered:
-        <input type="text" name="conceptsCovered">
+        <input type="text" name="conceptsCovered" id="concepts">
     </fieldset>
     </fieldset>
    </form>
     <form action="">  
         <fieldset>
         Journal Entry:
-        <textarea name="message" rows="10" cols="40"></textarea>
+        <textarea id="entry" name="message" rows="10" cols="40" ></textarea>
         </fieldset>
     </form>
     <form action="">
         <fieldset>
             How are you feeling today?
-                <select name="feels">
+                <select name="feels" id="feels">
                         <option value="Excited">Excited</option>
                         <option value="Neutral">Neutral</option>
                         <option value="Managing">Managing</option>
@@ -42,13 +42,17 @@
                 </select>
         </fieldset>
     </form>
+    <button type="button" id="submit-btn" onclick="alert('Fucking Submitted')">Submit</button>
+
     <article class="entryLog">
 
     </article>
-    <button type="button" onclick="alert('Fucking Submitted')">Submit</button>
 </div>
 
 </fieldset>
+
 <script src="scripts.js"></script>
+<script src="entries.js"></script>
+
 </body>
 </html>
