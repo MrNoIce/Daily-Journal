@@ -6,7 +6,7 @@ document.querySelector("#submit-btn").addEventListener("click", () => {
   let newForm = {
     date: date,
     concepts: concepts,
-    entry: entry,
+    content: entry,
     feels: feels
   };
   addNewJournalEntry(newForm);

@@ -19,14 +19,7 @@
       "date": "06/05/2019",
       "concepts": "the dom",
       "content": "learned how to impliment document.querySelector to inject html into the dom",
-      "feels": "stressed"
-    },
-    {
-      "date": "",
-      "concepts": "",
-      "entry": "",
-      "feels": "Excited",
-      "id": 4
+      "feels": "Stressed"
     },
     {
       "date": "2019-06-19",
@@ -34,6 +27,20 @@
       "entry": "We have just started in the morning. I have just figured out that i have to add \"id\"s to the json file before it knows what to do with the information.. ",
       "feels": "Excited",
       "id": 5
+    },
+    {
+      "date": "2019-06-21",
+      "concepts": "Array methods",
+      "content": "Working on journal entry 7",
+      "feels": "Excited",
+      "id": 6
+    },
+    {
+      "date": "2019-06-24",
+      "concepts": "CSS vaiables",
+      "content": "We went over css variables and how to create a list of pre selected colors to access anywhere in our css files.. one must import them but one does not need to export. Your able to use all of them in any css file",
+      "feels": "Excited",
+      "id": 7
     }
   ]
 }
